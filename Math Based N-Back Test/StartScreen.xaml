@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Math_Based_N_Back_Test.StartScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Math_Based_N_Back_Test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <RelativePanel HorizontalAlignment="Center" Height="472" VerticalAlignment="Center" Width="768">
+        <TextBlock Height="18.6667" Text="N-Back" TextWrapping="Wrap" Margin="265,147,-265.333,6" VerticalAlignment="Stretch"/>
+        <TextBlock Height="18.6667" Text="Trials" TextWrapping="Wrap" Margin="265,226,-264.667,-226.333"/>
+        <TextBox x:Name="nbackInput" HorizontalAlignment="Left" Height="32.6667" Text="" VerticalAlignment="Top" Width="67.3333" Margin="384,146,0,0" InputScope="Number"/>
+        <TextBox x:Name="trialsInput" HorizontalAlignment="Left" Height="32.6667" Text="" VerticalAlignment="Top" Width="67.3333" Margin="384,220,0,0" InputScope="Number"/>
+        <Button Content="Start Test" HorizontalAlignment="Left" Height="31.3333" VerticalAlignment="Stretch" Width="100" Margin="295,304,0,-33.667" Click="Button_Click"/>
+        <Button Content="Instructions" HorizontalAlignment="Left" Height="31.3333" VerticalAlignment="Top" Width="100" Margin="295,374,0,0" Click="Button_Click_1"/>
+
+    </RelativePanel>
+</Page>

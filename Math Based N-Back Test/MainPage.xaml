@@ -6,9 +6,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Grid>
-
-    </Grid>
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" KeyUp="Grid_KeyUp">
+    <RelativePanel HorizontalAlignment="Center" Height="472" VerticalAlignment="Center" Width="768">
+        <TextBlock x:Name="QuestionBox" Text="Are you Ready?" TextWrapping="Wrap" FontSize="36" TextAlignment="Center" FontFamily="Segoe UI" Margin="257,82,0,-74" HorizontalAlignment="Left" Width="246" VerticalAlignment="Stretch"/>
+        <TextBlock x:Name="InfoBox" Text="Answer:" TextWrapping="Wrap" Margin="342,253,-12,1.333" FontSize="22" TextAlignment="Center" HorizontalAlignment="Stretch"/>
+        <TextBlock x:Name="AnswerBox" Height="50" Text="X" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI" Margin="369,329,-218.667,0" TextAlignment="Center" FontSize="36" RenderTransformOrigin="-0.75,0.463" HorizontalAlignment="Stretch"/>
+    </RelativePanel>
 </Page>
