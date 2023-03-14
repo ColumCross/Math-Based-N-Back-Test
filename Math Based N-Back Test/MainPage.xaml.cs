@@ -54,7 +54,7 @@ namespace Math_Based_N_Back_Test
                 NextQuestion();
                 return;
             }
-            char[] MyChar = { 'N', 'u', 'm', 'b', 'e','r' };
+            char[] MyChar = { 'N', 'u', 'm', 'b', 'e','r', 'P', 'a', 'd' };
             string key = e.Key.ToString().TrimStart(MyChar);
             AnswerBox.Text = key;
             CalculateAnswer(key);
